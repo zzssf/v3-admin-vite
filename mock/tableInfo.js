@@ -1,3 +1,21 @@
+const deleteTable = {
+  code: 0,
+  data: {},
+  message: "删除成功"
+}
+
+const editTable = {
+  code: 0,
+  data: {},
+  message: "修改成功"
+}
+
+const addTable = {
+  code: 0,
+  data: {},
+  message: "添加成功"
+}
+
 const tableInfo = {
   code: 0,
   data: {
@@ -98,4 +116,4 @@ const tableInfo = {
   message: "获取表格数据成功"
 }
 
-module.exports = { tableInfo }
+module.exports = { tableInfo, editTable, deleteTable, addTable }
